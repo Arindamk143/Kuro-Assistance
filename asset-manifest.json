@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kuro-Assistance/static/css/main.62e123bd.css",
-    "main.js": "/Kuro-Assistance/static/js/main.bead4a90.js",
+    "main.css": "/Kuro-Assistance/static/css/main.215f0bbe.css",
+    "main.js": "/Kuro-Assistance/static/js/main.6b2fc3b3.js",
     "static/js/787.826152ad.chunk.js": "/Kuro-Assistance/static/js/787.826152ad.chunk.js",
     "static/media/love.mp3": "/Kuro-Assistance/static/media/love.539d6d6fb124b37787e3.mp3",
     "static/media/1.mp3": "/Kuro-Assistance/static/media/1.2a868285aeb6d25c2e8d.mp3",
@@ -10,12 +10,12 @@
     "static/media/Kuro.gif": "/Kuro-Assistance/static/media/Kuro.88c9af0cd6de67a2ade4.gif",
     "static/media/background.jpg": "/Kuro-Assistance/static/media/background.70547856299a26dd453c.jpg",
     "index.html": "/Kuro-Assistance/index.html",
-    "main.62e123bd.css.map": "/Kuro-Assistance/static/css/main.62e123bd.css.map",
-    "main.bead4a90.js.map": "/Kuro-Assistance/static/js/main.bead4a90.js.map",
+    "main.215f0bbe.css.map": "/Kuro-Assistance/static/css/main.215f0bbe.css.map",
+    "main.6b2fc3b3.js.map": "/Kuro-Assistance/static/js/main.6b2fc3b3.js.map",
     "787.826152ad.chunk.js.map": "/Kuro-Assistance/static/js/787.826152ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62e123bd.css",
-    "static/js/main.bead4a90.js"
+    "static/css/main.215f0bbe.css",
+    "static/js/main.6b2fc3b3.js"
   ]
 }
