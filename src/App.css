@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat&family=Indie+Flower&family=Kdam+Thmor+Pro&family=Monofett&family=My+Soul&display=swap');
+
+h1{
+    font-family: 'My Soul', cursive;
+    text-shadow: 3px -4px 5px rgb(13, 255, 94);
+    font-size: 5rem;
+    color: red; 
+    text-align: center; 
+}
+.headTag{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    animation-name: kuro;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    
+}
+body{
+    background: url("./img/background.jpg") no-repeat center center/cover;
+}
+@keyframes kuro {
+    0%{
+        top: 70vh;
+        left: 0px;
+    }
+    100%{
+        bottom: 0px;
+        top: 0px;
+    }
+}
+.assistance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+button{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+
+}
+label{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.labelLoad{
+    margin-top: 2rem;
+}
+#kuroImg{
+    image-rendering: crisp-edges;
+    /* border: 2px solid red; */
+    border-radius: 10rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 415px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    body{
+        width: 100%;
+        height: 96vh;
+        /* background: url("./background.jpg") no-repeat center center/cover; */
+    }
 }
